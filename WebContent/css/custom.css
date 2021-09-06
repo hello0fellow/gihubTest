@@ -1,0 +1,58 @@
+/* 웹에서 외부 스타일 시트를 가져온다. */
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+@import url("http://fonts.googleapis.com/earlyaccess/hanna.css");
+@import url("http://fonts.googleapis.com/earlyaccess/notosanskr.css");
+
+/* 전체 영역에 스타일 정의 */
+
+* {
+	font-family: "Nanum Gothic";
+}
+
+thead th {
+	background-color: tomato;
+	color: white;
+	text-align: center;
+}
+
+h5 {
+	font-family: 'Noto Sans KR';
+	font-size: 15px;
+}
+
+h4 {
+	font-family: 'Noto Sans KR';
+}
+h3, h2, h1 {
+	font-family: 'Hanna';
+	font-size: 15px;
+}
+
+.vertical-alignment-helper {
+	display: table;
+	height: 100%;
+	width: 100%;
+	pointer-events: none;
+}
+
+.vertical-align-center {
+	display: table-cell;
+	vertical-align: middle;
+	pointer-events: auto;
+}
+
+.modal-content {
+	width: inherit;
+	height: inherit;
+	margin: 0 auto;
+	pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
